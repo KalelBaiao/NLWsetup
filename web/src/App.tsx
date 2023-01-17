@@ -1,6 +1,13 @@
+import './styles/global.css'
+
+import { Habit } from "./components/Habit"
+
 function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <Habit completed={3} />
+      <Habit completed={0}/>
+    </div>
   )
 }
 
